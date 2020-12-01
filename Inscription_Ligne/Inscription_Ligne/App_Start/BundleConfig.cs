@@ -33,6 +33,8 @@ namespace Inscription_Ligne
             bundles.Add(new ScriptBundle("~/Template.js").Include(
                 "~/Content/js/jquery.min.js",
                 "~/Content/js/bootstrap.min.js",
+                "~/Content/js/main.js",
+                "~/Content/js/select2.js",
                 "~/Content/js/main.js"
                 ));
         }
