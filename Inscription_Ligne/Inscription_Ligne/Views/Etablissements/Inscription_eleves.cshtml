@@ -1,0 +1,101 @@
+﻿
+    <section class="sectionSign">
+        <div class="circle"></div>
+        <div class="boxSign">
+            <div class="boxSign--content">
+                <h2 class="tilte-sign">Inscription</h2>
+                <form id="msform" class="formSign">                  
+                    <div class="box-fieldset">
+                        <!-- fieldsets -->
+                        <!-- STEP 1 -->
+                        <fieldset>
+                            <h2 class="fs-title">Informations personnelles</h2>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form--group">
+                                        <label for="">Nom</label>
+                                        <input type="text" class="form--group__input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form--group">
+                                        <label for="">Prenom</label>
+                                        <input type="text" class="form--group__input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form--group">
+                                        <label for="">Email du parent</label>
+                                        <input type="email" class="form--group__input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form--group">
+                                        <label for="">Contact</label>
+                                        <input type="text" class="form--group__input">
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" name="next" class="next action-button" value="Suivant" />
+                        </fieldset>
+
+                        <!-- STEP 2 -->
+                        <fieldset>
+                            <h2 class="fs-title">Information supplementaire - Document à fournir</h2>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form--group">
+                                        <label for="">Etablissement</label>
+                                        <input type="text" class="form--group__input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form--group">
+                                        <label for="">Matricule</label>
+                                        <input type="text" class="form--group__input">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form--group">
+                                        <label for="">Extrait de naissance</label>
+                                        <div class="parent-div">
+                                            <button class="btn-upload">Choisir le fichier</button>
+                                            <input type="file" name="upfile" class="form--group__input" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form--group">
+                                        <label for="">Photo</label>
+                                        <div class="parent-div">
+                                            <button class="btn-upload">Choisir le fichier</button>
+                                            <input type="file" name="upfile" class="form--group__input" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="button" name="previous" class="previous action-button" value="Précédent" />
+                            <input type="button" name="next" class="next action-button" value="Suivant" />
+                        </fieldset>
+
+                        <!-- STEP 3-->
+                        <fieldset>
+                            <h2 class="fs-title">Finalisation</h2>
+                            <div class="finalisation">
+                                <p>Une fois finalisé</p>
+                                <p>Vous allez recevoir un <span class="bold-black">email</span> et/ou <span class="bold-black">un sms</span></p>
+                                <p>
+                                    contenant vos identifiant :
+                                    <span class="bold-red">Username</span> et
+                                    <span class="bold-red">Mot de passe</span>
+                                </p>
+                            </div>
+                            <input type="button" name="previous" class="previous action-button" value="Précédent" />
+                            <input type="button" name="next" class="action-button" value="Finaliser" />
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
