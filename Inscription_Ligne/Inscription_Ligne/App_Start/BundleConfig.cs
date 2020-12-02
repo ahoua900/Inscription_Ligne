@@ -34,13 +34,14 @@ namespace Inscription_Ligne
 
             bundles.Add(new ScriptBundle("~/Template.js").Include(
                 "~/Content/js/jquery.min.js",
+                "~/Scripts/easing.js",
                 "~/Content/js/bootstrap.min.js",
                 "~/Content/js/main.js",
                 "~/Content/js/select2.js",
                 "~/Content/js/select.js",
                 "~/Content/js/progress.js",
-                "~/Content/js/Nav.js",
-                "~/https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
+                "~/Content/js/Nav.js"
+               
                 ));
         }
     }
