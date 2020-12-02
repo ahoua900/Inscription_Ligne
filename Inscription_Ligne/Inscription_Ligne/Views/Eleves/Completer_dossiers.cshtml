@@ -1,0 +1,157 @@
+﻿<div class="dashboard">
+    <div class="sidebar" id="menu">
+        <h4>dashboard</h4>
+        <div class="menu">
+            <ul class="list">
+                <li class="list--item">
+                    <a href="#" class="list--item__link">
+                        <div class="icone">
+                            <img src="~/Content/icones/home.svg" alt="">
+                        </div>
+                        <span>Accueil</span>
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="~/Eleves/Completer_dossiers" class="list--item__link ">
+                        <div class="icone">
+                            <img src="~/Content/icones/folder.svg" alt="">
+                        </div>
+                        <span>Compléter mes dossiers</span>
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="~/Eleves/Faire_versements" class="list--item__link">
+                        <div class="icone">
+                            <img src="~/Content/icones/payment.svg" alt="">
+                        </div>
+                        <span>Faire un Versement</span>
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="~/Eleves/Mes_versements" class="list--item__link active">
+                        <div class="icone">
+                            <img src="~/Content/icones/payment.svg" alt="">
+                        </div>
+                        <span>Voir mes Versements</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar--content">
+        <div class="topNav">
+            <div class="icone" id="icon-open">
+                <img src="icones/menu.svg" alt="">
+            </div>
+            <div class="profil">
+                <div class="photo">
+                    <img src="images/photo.jpg" alt="">
+                </div>
+                <span>Marie-Eude</span>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="content--general">
+            <section class="sectionDossier">
+                <div class="container">
+                    <div class="sectionDossier--content">
+                        <div class="sectionDossier--content__top">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="card-dossier">
+                                        <h3 class="title-cardDossier">Etablissement</h3>
+                                        <p class="paragraph">Collège Voltaire Treichville</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="card-dossier">
+                                        <h3 class="title-cardDossier">Scolarité</h3>
+                                        <p class="paragraph">250000 Fcfa</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sectionDossier--content__bottom">
+                            <h2>Compléter mes dossiers</h2>
+                            <h6>(<span class="bold-red">*</span>) champ obligatoire</h6>
+                            <form action="" class="formCompleteDossier">
+                                <fieldset>
+                                    <h4>Informations personnelles</h4>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Nom</label>
+                                                <input type="text" class="form--group__input no-drop" value="Kouassi" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Prénom</label>
+                                                <input type="text" class="form--group__input no-drop" value="Marie-Eude" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Matricule</label>
+                                                <input type="text" class="form--group__input no-drop" value="12456456Y" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Niveau</label>
+                                                <input type="text" class="form--group__input no-drop" value="5eme" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Etablissement</label>
+                                                <input type="text" class="form--group__input no-drop" value="Collège Voltaire Treichville" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <h4>Document à fournir</h4>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Extrait de naissance <span class="bold-red">*</span></label>
+                                                <div class="parent-div">
+                                                    <button class="btn-upload">Choisir le fichier</button>
+                                                    <input type="file" name="upfile" class="form--group__input" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Photo<span class="bold-red">*</span></label>
+                                                <div class="parent-div">
+                                                    <button class="btn-upload">Choisir le fichier</button>
+                                                    <input type="file" name="upfile" class="form--group__input" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Fiche d'inscription <span class="bold-red">*</span></label>
+                                                <div class="parent-div">
+                                                    <button class="btn-upload">Choisir le fichier</button>
+                                                    <input type="file" name="upfile" class="form--group__input" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div>
+                                    <button type="submit" class="btnCompleter">Compléter</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+

@@ -318,10 +318,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .formVerif .form--group label {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: 500;
   color: #000;
+  display: block;
 }
 
 @media only screen and (max-width: 600px) {
@@ -398,6 +399,20 @@ h1, h2, h3, h4, h5 {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+.form--group__textarea {
+  width: 100%;
+  height: 10rem;
+  padding: 1rem;
+  border-radius: .3rem;
+  border: 1px solid #000;
+  transition: all .3s;
+}
+
+.form--group__textarea:focus {
+  outline: none;
+  border: 1px solid #ea662a;
 }
 
 .btnConnexion {
@@ -874,7 +889,6 @@ h1, h2, h3, h4, h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   position: relative;
   background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/cool-background.png);
   background-size: cover;
@@ -888,6 +902,7 @@ h1, h2, h3, h4, h5 {
   position: absolute;
   left: -20rem;
   box-shadow: 3px 0px 5px -1px rgba(0, 0, 0, 0.3);
+  position: fixed;
 }
 
 .sectionSign .circle-right {
@@ -898,15 +913,22 @@ h1, h2, h3, h4, h5 {
   position: absolute;
   box-shadow: -3px 0px 5px -1px rgba(0, 0, 0, 0.3);
   right: -18rem;
+  position: fixed;
 }
 
 .sectionSign .boxSign {
   height: 30rem;
-  width: 60%;
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 1199px) {
+  .sectionSign .boxSign {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -916,10 +938,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .sectionSign .boxSign--content {
-  height: 30rem;
-  overflow-x: hidden;
-  width: 80%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionSign .boxSign--content {
+    margin-top: -5rem;
+  }
 }
 
 .sectionSign .boxConnexion {
@@ -1008,6 +1033,7 @@ h1, h2, h3, h4, h5 {
   position: relative;
   background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../images/cool-background.png);
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .sectionSign .boxVerification {
@@ -1085,11 +1111,6 @@ h1, h2, h3, h4, h5 {
 
 .sectionSign .boxVerification--content__register {
   padding-top: 3rem;
-}
-
-.sectionSign .boxVerification__register {
-  height: 30rem;
-  overflow-x: hidden;
 }
 
 .sectionAllVersement {
@@ -1289,6 +1310,23 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+.boxAjoutEleve {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.22);
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all .4s;
+}
+
+.boxAjoutEleve:hover {
+  background-color: #073f92;
+  color: #fff;
+}
+
 .tableListEleve tbody .photo {
   height: 2rem;
   width: 2rem;
@@ -1311,5 +1349,55 @@ h1, h2, h3, h4, h5 {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.boxPagination {
+  margin-top: 1rem;
+  background: #fff;
+  border-radius: .3rem;
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.22);
+  padding: 1rem;
+}
+
+.boxPagination .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.boxPagination .pagination .number {
+  margin: 0 1rem;
+}
+
+.boxPagination .pagination .number span {
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 0 .5rem;
+}
+
+.boxPagination .pagination .number span.active {
+  color: #073f92;
+  font-weight: 800;
+}
+
+.boxPagination .pagination .icone {
+  height: 2rem;
+  width: 2rem;
+  background-color: #000;
+  border-radius: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s;
+}
+
+.boxPagination .pagination .icone:hover {
+  background-color: #ea662a;
+}
+
+.boxPagination .pagination .icone img {
+  height: 100%;
+  width: 1rem;
+  object-fit: contain;
 }
 /*# sourceMappingURL=main.css.map */

@@ -135,10 +135,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\._bootstrap.min.css" />
     <Content Include="Content\css\._main.css" />
+    <Content Include="Content\css\._select2.css" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\css\datatable\._datatable.bootstrap.css" />
     <Content Include="Content\css\datatable\datatable.bootstrap.css" />
     <Content Include="Content\css\main.css" />
+    <Content Include="Content\css\select2.css" />
     <Content Include="Content\font-awesome\css\._font-awesome.css" />
     <Content Include="Content\font-awesome\css\._font-awesome.min.css" />
     <Content Include="Content\font-awesome\css\font-awesome.css" />
@@ -150,10 +152,12 @@
     <Content Include="Content\icones\._eye.svg" />
     <Content Include="Content\icones\._folder.svg" />
     <Content Include="Content\icones\._home.svg" />
+    <Content Include="Content\icones\._left-arrow.svg" />
     <Content Include="Content\icones\._loupe.svg" />
     <Content Include="Content\icones\._menu.svg" />
     <Content Include="Content\icones\._padlock.svg" />
     <Content Include="Content\icones\._payment.svg" />
+    <Content Include="Content\icones\._right-arrow.svg" />
     <Content Include="Content\icones\._student.svg" />
     <Content Include="Content\icones\._user.svg" />
     <Content Include="Content\icones\clipboard.svg" />
@@ -161,10 +165,12 @@
     <Content Include="Content\icones\eye.svg" />
     <Content Include="Content\icones\folder.svg" />
     <Content Include="Content\icones\home.svg" />
+    <Content Include="Content\icones\left-arrow.svg" />
     <Content Include="Content\icones\loupe.svg" />
     <Content Include="Content\icones\menu.svg" />
     <Content Include="Content\icones\padlock.svg" />
     <Content Include="Content\icones\payment.svg" />
+    <Content Include="Content\icones\right-arrow.svg" />
     <Content Include="Content\icones\student.svg" />
     <Content Include="Content\icones\user.svg" />
     <Content Include="Content\images\._cool-background.png" />
@@ -183,6 +189,28 @@
     <Content Include="Content\images\photo.jpg" />
     <Content Include="Content\images\school.svg" />
     <Content Include="Content\images\students.svg" />
+    <Content Include="Content\js\._bootstrap.min.js" />
+    <Content Include="Content\js\._jquery.min.js" />
+    <Content Include="Content\js\._main.js" />
+    <Content Include="Content\js\._progressForm.js" />
+    <Content Include="Content\js\._select.js" />
+    <Content Include="Content\js\._select2.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\datatable\._datatable.advanced.js" />
+    <Content Include="Content\js\datatable\._datatable.basic.js" />
+    <Content Include="Content\js\datatable\._datatable.init.js" />
+    <Content Include="Content\js\datatable\._datatable.js" />
+    <Content Include="Content\js\datatable\datatable.advanced.js" />
+    <Content Include="Content\js\datatable\datatable.basic.js" />
+    <Content Include="Content\js\datatable\datatable.init.js" />
+    <Content Include="Content\js\datatable\datatable.js" />
+    <Content Include="Content\js\jquery.min.js" />
+    <Content Include="Content\js\main.js" />
+    <Content Include="Content\js\Nav.js" />
+    <Content Include="Content\js\progress.js" />
+    <Content Include="Content\js\progressForm.js" />
+    <Content Include="Content\js\select.js" />
+    <Content Include="Content\js\select2.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -206,6 +234,7 @@
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\js\._datatable" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -233,11 +262,17 @@
     <Content Include="Views\Etablissements\Register_Etablissement.cshtml" />
     <Content Include="Views\Etablissements\Verification_eleves.cshtml" />
     <Content Include="Views\Etablissements\Inscription_eleves.cshtml" />
+    <Content Include="Views\Shared\_LayoutEta.cshtml" />
+    <Content Include="Views\Etablissements\Dashboard_etablissement.cshtml" />
+    <Content Include="Views\Etablissements\Liste_eleves.cshtml" />
+    <Content Include="Views\Etablissements\Eleves.cshtml" />
+    <Content Include="Views\Eleves\Completer_dossiers.cshtml" />
+    <Content Include="Views\Eleves\Faire_versements.cshtml" />
+    <Content Include="Views\Eleves\Mes_versements.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Eleves\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

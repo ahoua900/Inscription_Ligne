@@ -1,0 +1,120 @@
+﻿<div class="dashboard">
+    <div class="sidebar" id="menu">
+        <h4>dashboard</h4>
+        <div class="menu">
+            <ul class="list">
+                <li class="list--item">
+                    <a href="#" class="list--item__link">
+                        <div class="icone">
+                            <img src="~/Content/icones/home.svg" alt="">
+                        </div>
+                        <span>Accueil</span>
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="~/Eleves/Completer_dossiers" class="list--item__link ">
+                        <div class="icone">
+                            <img src="~/Content/icones/folder.svg" alt="">
+                        </div>
+                        <span>Compléter mes dossiers</span>
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="~/Eleves/Faire_versements" class="list--item__link">
+                        <div class="icone">
+                            <img src="~/Content/icones/payment.svg" alt="">
+                        </div>
+                        <span>Faire un Versement</span>
+                    </a>
+                </li>
+                <li class="list--item">
+                    <a href="~/Eleves/Mes_versements" class="list--item__link active">
+                        <div class="icone">
+                            <img src="~/Content/icones/payment.svg" alt="">
+                        </div>
+                        <span>Voir mes Versements</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar--content">
+        <div class="topNav">
+            <div class="icone" id="icon-open">
+                <img src="~/Content/icones/menu.svg" alt="">
+            </div>
+            <div class="profil">
+                <div class="photo">
+                    <img src="~/Content/images/photo.jpg" alt="">
+                </div>
+                <span>Marie-Eude</span>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="content--general">
+            <section class="sectionDossier">
+                <div class="container">
+                    <div class="sectionDossier--content">
+                        <div class="sectionDossier--content__top">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="card-dossier">
+                                        <h3 class="title-cardDossier">Etablissement</h3>
+                                        <p class="paragraph">Collège Voltaire Treichville</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="card-dossier">
+                                        <h3 class="title-cardDossier">Scolarité</h3>
+                                        <p class="paragraph">250000 Fcfa</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sectionDossier--content__bottom">
+                            <h2>Faites Votre Versements</h2>
+                            <h6>(<span class="bold-red">*</span>) champ obligatoire</h6>
+                            <form action="" class="formCompleteDossier">
+                                <fieldset class="fieldsetVersement">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Code de payement <span class="bold-red">*</span></label>
+                                                <input type="text" class="form--group__input">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Votre numéro de payement <span class="bold-red">*</span></label>
+                                                <input type="text" class="form--group__input">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="form--group">
+                                                <label for="">Montant <span class="bold-red">*</span></label>
+                                                <input type="text" class="form--group__input">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form--group">
+                                                <label for="">Mode de payement</label>
+                                                <div class="imageMode">
+                                                    <a href="#"><div class="image"><img src="~/Content/images/orange-money.jpg" alt="OM"></div></a>
+                                                    <a href="#"><div class="image"><img src="~/Content/images/moov-money.jpg" alt="FLOOZ"></div></a>
+                                                    <a href="#"><div class="image"><img src="~/Content/images/mobile-money.jpg" alt="momo"></div></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div>
+                                    <button type="submit" class="btnCompleter btnCompleter--versement">Valider le Versement</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>

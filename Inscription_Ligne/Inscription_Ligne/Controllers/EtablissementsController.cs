@@ -21,5 +21,17 @@ namespace Inscription_Ligne.Controllers
         {
             return View();
         }
+        public ActionResult Dashboard_etablissement()
+        {
+            return View();
+        }
+        public ActionResult Liste_eleves()
+        {
+            return View();
+        }
+        public ActionResult Eleves()
+        {
+            return View();
+        }
     }
 }

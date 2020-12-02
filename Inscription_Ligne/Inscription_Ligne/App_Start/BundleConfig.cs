@@ -29,13 +29,18 @@ namespace Inscription_Ligne
                 "~/Content/css/main.css",
                 "~/Content/css/bootstrap.min.css",
                 "~/Content/css/owl.carousel.min.css",
-                "~/Content/font-awesome/css/font-awesome.min.css"));
+                "~/Content/font-awesome/css/font-awesome.min.css",
+                 "~/Content/css/select2.css"));
+
             bundles.Add(new ScriptBundle("~/Template.js").Include(
                 "~/Content/js/jquery.min.js",
                 "~/Content/js/bootstrap.min.js",
                 "~/Content/js/main.js",
                 "~/Content/js/select2.js",
-                "~/Content/js/main.js"
+                "~/Content/js/select.js",
+                "~/Content/js/progress.js",
+                "~/Content/js/Nav.js",
+                "~/https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"
                 ));
         }
     }

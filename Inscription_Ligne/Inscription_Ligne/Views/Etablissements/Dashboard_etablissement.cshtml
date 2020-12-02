@@ -1,0 +1,403 @@
+﻿
+    <div class="dashboard">
+        <div class="sidebar" id="menu">
+            <h4>dashboard</h4>
+            <div class="menu">
+                <ul class="list">
+                    <li class="list--item">
+                        <a href="#" class="list--item__link">
+                            <div class="icone">
+                                <img src="~/Content/icones/home.svg" alt="">
+                            </div>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="list--item">
+                        <a href="~/Etablissements/Dashboard_etablissement" class="list--item__link active">
+                            <div class="icone">
+                                <img src="~/Content/icones/clipboard.svg" alt="">
+                            </div>
+                            <span>Enregistrement</span>
+                        </a>
+                    </li>
+                    <li class="list--item">
+                        <a href="~/Etablissements/Liste_eleves" class="list--item__link">
+                            <div class="icone">
+                                <img src="~/Content/icones/student.svg" alt="">
+                            </div>
+                            <span>Liste des éléves</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar--content">
+            <div class="topNav">
+                <div class="icone" id="icon-open">
+                    <img src="~/Content/icones/menu.svg" alt="">
+                </div>
+                <div class="profil">
+                    <div class="photo"></div>
+                    <span>College Volaire Treichville</span>
+                </div>
+            </div>
+            <!-- content -->
+            <div class="content--general">
+                <section class="sectionEtablissement">
+                    <div class="container">
+                        <div class="boxEtablissement">
+                            <div class="boxEtablissement--content">
+                                <form id="msform" class="formEtablissement">
+                                    <!-- progressbar -->
+                                    <ul id="progressbar">
+                                        <li class="active"><span>Etablissement</span></li>
+                                        <li><span>Statut</span></li>
+                                        <li><span>Document à fournir</span></li>
+                                    </ul>
+                                    <div class="box-fieldset">
+                                        <!-- fieldsets -->
+                                        <!-- STEP 1 -->
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="form--group">
+                                                        <label for="">Type d'Etablissement</label>
+                                                        <select class="custom-select form--group__input">
+                                                            <option selected>Choisir...</option>
+                                                            <option value="1">Public</option>
+                                                            <option value="2">Privé</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form--group">
+                                                        <label for="">Type d'Enseignement</label>
+                                                        <select class="custom-select form--group__input">
+                                                            <option selected>Choisir...</option>
+                                                            <option value="1">Général</option>
+                                                            <option value="2">Technique</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form--group">
+                                                        <label for="" class="color-red">Si le type d'Enseignement est Général</label>
+                                                        <h5>2nde</h5>
+                                                        <div class="boxCheckbox">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    A
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    C
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    D
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <h5>1ére</h5>
+                                                        <div class="boxCheckbox">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    A
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    C
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    D
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <h5>Tle</h5>
+                                                        <div class="boxCheckbox">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    A
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    C
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    D
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form--group">
+                                                        <label for="" class="color-red">Si le type d'Enseignement est Technique</label>
+                                                        <h5>2nde</h5>
+                                                        <div class="boxCheckbox">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    E
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    F
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    G
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <h5>1ére</h5>
+                                                        <div class="boxCheckbox">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    E
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    C
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    D
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <h5>Tle</h5>
+                                                        <div class="boxCheckbox">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    A
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    C
+                                                                </label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                <label class="form-check-label" for="defaultCheck1">
+                                                                    D
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="button" name="next" class="next action-button" value="Suivant" />
+                                        </fieldset>
+
+                                        <!-- STEP 2 -->
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="form--group">
+                                                        <label for="">Statut</label>
+                                                        <select class="custom-select form--group__input">
+                                                            <option selected>Choisir...</option>
+                                                            <option value="1">....</option>
+                                                            <option value="2">....</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-12">
+                                                    <div class="form--group">
+                                                        <div class="ajout">
+                                                            <h4>Ajouter le montant</h4>
+                                                            <a href="#">
+                                                                <button>+</button>
+                                                            </a>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <label for="">Niveau</label>
+                                                                <input type="text" class="form--group__input">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="">Montant Affecté</label>
+                                                                <input type="text" class="form--group__input">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="">Montant Non Affecté</label>
+                                                                <input type="text" class="form--group__input">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-12">
+                                                    <div class="form--group">
+                                                        <div class="ajout">
+                                                            <h4>Divers Montant</h4>
+                                                            <a href="#">
+                                                                <button><span>+</span></button>
+                                                            </a>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <label for="">Motif</label>
+                                                                <input type="text" class="form--group__input">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="">Prix</label>
+                                                                <input type="text" class="form--group__input">
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <label for="">Total</label>
+                                                                <input type="text" class="form--group__input">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="button" name="previous" class="previous action-button" value="Précédent" />
+                                            <input type="button" name="next" class="next action-button" value="Suivant" />
+                                        </fieldset>
+
+                                        <!-- STEP 3-->
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form--group">
+                                                        <div class="ajout">
+                                                            <h4>Document à fournir</h4>
+                                                            <a href="#">
+                                                                <button><span>+</span></button>
+                                                            </a>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form--group">
+                                                                    <label for="" class="mb-4">Listes des classes</label>
+                                                                    <div class="boxCheckbox">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                                6éme
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                                            <label class="form-check-label" for="defaultCheck2">
+                                                                                5éme
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                                                            <label class="form-check-label" for="defaultCheck3">
+                                                                                4éme
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                                                            <label class="form-check-label" for="defaultCheck4">
+                                                                                3éme
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="boxCheckbox">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                                1ére
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                                                            <label class="form-check-label" for="defaultCheck2">
+                                                                                2nde
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                                                            <label class="form-check-label" for="defaultCheck3">
+                                                                                Tle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <div class="form--group">
+                                                                    <label for="" class="mb-4">Documents à fournir (à rediger vous meme)</label>
+                                                                    <textarea name="" id="" class="form--group__textarea"></textarea>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="col-lg-8">
+                                                            <div class="form--group">
+                                                                <label for="">Fichier</label>
+                                                                <div class="parent-div">
+                                                                    <button class="btn-upload">Choisir le fichier</button>
+                                                                    <input type="file" name="upfile" class="form--group__input"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <label for="">Original</label>
+                                                            <div class="boxCheckbox">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="radioOptions" id="radio1" value="option1">
+                                                                    <label class="form-check-label" for="radio1">Oui</label>
+                                                                </div>
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="radio" name="radioOptions" id="radio2" value="option2">
+                                                                    <label class="form-check-label" for="radio2">Non</label>
+                                                                </div>
+                                                            </div>
+                                                        </div> -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="button" name="previous" class="previous action-button" value="Précédent" />
+                                            <input type="button" name="next" class="action-button" value="Enregistrer" />
+                                        </fieldset>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+</div>

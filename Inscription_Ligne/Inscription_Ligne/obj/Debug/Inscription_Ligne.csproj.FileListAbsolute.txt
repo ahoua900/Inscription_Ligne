@@ -79,7 +79,6 @@ C:\Users\imac 22\Documents\GitHub\Inscription_Ligne\Inscription_Ligne\Inscriptio
 C:\Users\imac 22\Documents\GitHub\Inscription_Ligne\Inscription_Ligne\Inscription_Ligne\bin\fr\System.Web.WebPages.resources.dll
 C:\Users\imac 22\Documents\GitHub\Inscription_Ligne\Inscription_Ligne\Inscription_Ligne\bin\fr\System.Web.WebPages.Deployment.resources.dll
 C:\Users\imac 22\Documents\GitHub\Inscription_Ligne\Inscription_Ligne\Inscription_Ligne\bin\fr\System.Web.WebPages.Razor.resources.dll
-C:\Users\imac 22\Documents\GitHub\Inscription_Ligne\Inscription_Ligne\Inscription_Ligne\obj\Debug\Inscription_Ligne.csprojAssemblyReference.cache
 C:\Users\imac 22\Documents\GitHub\Inscription_Ligne\Inscription_Ligne\Inscription_Ligne\obj\Debug\Inscription_Ligne.csproj.CoreCompileInputs.cache
 C:\Users\imac 22\Documents\GitHub\Inscription_Ligne\Inscription_Ligne\Inscription_Ligne\obj\Debug\Inscription_Ligne.csproj.CopyComplete
 C:\Users\imac 22\Documents\GitHub\Inscription_Ligne\Inscription_Ligne\Inscription_Ligne\obj\Debug\Inscription_Ligne.dll
