@@ -12,8 +12,10 @@ namespace Inscription_Ligne.Models
         public string Prenom_Eleve { get; set; }
         public int Matricule_Eleve { get; set; }
         public string Classe_Eleve { get; set; }
-        public int Parent_Eleve  { get; set; }
+        public string Email_Parent  { get; set; }
+        public int Contact_Parent  { get; set; }
         public string Extrait_naissance { get; set; }
         public string Photo { get; set; }
+        public string Etablissement { get; set; }
     }
 }
