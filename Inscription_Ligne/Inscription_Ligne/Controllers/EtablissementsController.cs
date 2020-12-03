@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Inscription_Ligne.Models;
+using Inscription_Ligne.DAL;
 using System.Web;
 using System.Web.Mvc;
 
@@ -11,6 +13,19 @@ namespace Inscription_Ligne.Controllers
         // GET: Etablissements
         public ActionResult Register_Etablissement()
         {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Register_Etablissement(Etablissement etablissement)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            else
+            {
+
+            }
             return View();
         }
         public ActionResult Verification_eleves()

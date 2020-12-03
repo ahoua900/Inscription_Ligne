@@ -1,4 +1,4 @@
-﻿
+﻿@model Inscription_Ligne.Models.Connexion
     <section class="sectionSign">
         <div class="circle-right"></div>
         <div class="boxConnexion">
@@ -8,7 +8,7 @@
                     <div class="col-lg-12">
                         <div class="form--group">
                             <div class="icone"><img src="~/Content/icones/user.svg" alt="icone user"></div>
-                            <input type="text" class="form--group__input" placeholder="Username">
+                            <input type="text" name="Username" class="form--group__input" placeholder="Username">
                         </div>
                     </div>
                     <div class="col-lg-12">
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <button type="submit" class="btnConnexion">Connexion</button>
+                        <button type="submit" name="Password" class="btnConnexion">Connexion</button>
                     </div>
                 </form>
             </div>

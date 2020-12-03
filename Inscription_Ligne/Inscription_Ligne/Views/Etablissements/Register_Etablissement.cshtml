@@ -1,43 +1,65 @@
-﻿<section class="sectionSign sectionSign__register">
-    <div class="boxVerification boxVerification__register">
-        <h2>Enregistrement</h2>
-        <div class="boxVerification--content boxVerification--content__register">
-            <form action="" class="formVerif form-row">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="form--group">
-                        <input type="text" class="form--group__input" placeholder="Code Etablissement">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="form--group">
-                        <input type="text" class="form--group__input" placeholder="Nom de l'Etablissement">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="form--group">
-                        <input type="text" class="form--group__input" placeholder="Localité">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="form--group">
-                        <input type="email" class="form--group__input" placeholder="Email">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="form--group">
-                        <div class="parent-div parent-div--modify">
-                            <button class="btn-upload">Ajouter un fichier</button>
-                            <input type="file" name="upfile" class="form--group__input" />
+﻿
+@model Inscription_Ligne.Models.Etablissement
+    <section class="sectionSign sectionSign__register">
+        <div class="boxVerification boxVerification__register">
+            <h2>Enregistrement</h2>
+            <div class="boxVerification--content boxVerification--content__register">
+                <form action="" class="formVerif form-row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="form--group">
+                            <input type="text" class="form--group__input" name="Code_Etablissment" placeholder="Code Etablissement">
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" class="btnRegister">Envoyer</button>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="form--group">
+                            <input type="text" class="form--group__input" name="Nom_Etablissment" placeholder="Nom de l'Etablissement">
+                        </div>
                     </div>
-                </div>
-            </form>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="form--group">
+                            <input type="text" class="form--group__input" name="Localité_Etablissment" placeholder="Localité">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="form--group">
+                            <input type="email" class="form--group__input" name="Email_Etablissment" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form--group">
+                            <div class="parent-div parent-div--modify">
+                                <button class="btn-upload">Ajouter un fichier</button>
+                                <input type="file" name="Attestation_Etablissment" class="form--group__input" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-center">
+                            <button type="button" data-toggle="modal" data-target="#exampleModalCenter" class="btnRegister">Envoyer</button>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-</section>
+        
+    </section>
 

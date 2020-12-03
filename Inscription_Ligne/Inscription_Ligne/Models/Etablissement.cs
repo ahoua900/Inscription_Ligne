@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,6 +8,7 @@ namespace Inscription_Ligne.Models
 {
     public class Etablissement
     {
+        [Key]
         public int IdEtablissment { get; set; }
         public string Nom_Etablissment { get; set; }
         public int Code_Etablissment { get; set; }
@@ -21,5 +23,7 @@ namespace Inscription_Ligne.Models
         public int IdNiveau { get; set; }
         public List<Eleves> Eleves { get; set; }
         public int IdEleve { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }
